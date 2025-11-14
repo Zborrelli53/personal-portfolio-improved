@@ -6,7 +6,84 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
+
+.pageHeading {
+    font-size: 25px;
+}
+
+.mainBody {
+    font-size: 20px;
+}
+
+.home {
+    border: #ee0000;
+    border-style: solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom-color: #2f3fee;
+    border-right-color: #2f3fee;
+    border-width: 10px;
+}
+
+.history {
+    border: #ee0000;
+    border-style: solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom-color: #2f3fee;
+    border-right-color: #2f3fee;
+    border-width: 10px;
+    margin-top: 200px;
+}
+
+.howVotingworks {
+    border: #ee0000;
+    border-style: solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom-color: #2f3fee;
+    border-right-color: #2f3fee;
+    border-width: 10px;
+    margin-top: 200px
+}
+
+.keyFacts {
+    border: #ee0000;
+    border-style: solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom-color: #2f3fee;
+    border-right-color: #2f3fee;
+    border-width: 10px;
+    margin-top: 200px
+}
+
+.keyFacts ul {
+    list-style-position: inside;
+    border: #ee0000;
+    border-style: solid transparent;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom-color: #2f3fee;
+    border-right-color: #2f3fee;
+    border-width: 10px;
+}
+
+.whyYourvoteMatters {
+    border: #ee0000;
+    border-style: solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom-color: #2f3fee;
+    border-right-color: #2f3fee;
+    border-width: 10px;
+    margin-top: 200px;
+    margin-bottom: 250px;
+}
+
+
 
 .nav-menu {
     list-style: none;
@@ -24,7 +101,7 @@ nav {
 
 .nav-menu {
     display: flex;
-    justify-content: space-around;
+    justify-content:flex-end;
     align-items: center;
 }
 
@@ -34,7 +111,7 @@ nav {
 
 .nav-menu a {
     background-color: #6f0000;
-    padding: 10px 20px;
+    padding: 10px 15px;
     display: block;   
     border-radius: 5px;
     transition: background-color 0.6s ease;
@@ -53,5 +130,21 @@ nav {
 .copyright p {
     color: #ffffff;
 }
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #003597;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+
 
 
